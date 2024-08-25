@@ -11,7 +11,7 @@ JokeAPI.getJokes();
 
 app.get("/", (req, res) => {
   try {
-    res.render("index.ejs", { content: "Click a Submit" });
+    res.render("index.ejs", { content: "Click a More Joke" });
   } catch (error) {
     console.error("The Error is soppted" + error);
   }
